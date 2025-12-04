@@ -22,6 +22,12 @@ This tool reads Excel files from a resource folder, concatenates all data, group
 
 ## Quick Start
 
+0. Create and activate a virtual environment (recommended to avoid system package conflicts):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
